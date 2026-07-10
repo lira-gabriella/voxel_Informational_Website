@@ -36,34 +36,7 @@
   text-decoration: none;
 }
 
-.header-logo-icon {
-  position: relative;
-}
 
-.shield-icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  transition: color 0.3s ease;
-}
-
-.header-transparent .shield-icon {
-  color: #ffffff;
-}
-
-.header-scrolled .shield-icon {
-  color: #e09f66;
-}
-
-.pulse-dot {
-  position: absolute;
-  top: -0.25rem;
-  right: -0.25rem;
-  width: 0.75rem;
-  height: 0.75rem;
-  background-color: #8a5228;
-  border-radius: 50%;
-  animation: pulse 2s infinite;
-}
 
 .header-logo-text {
   font-weight: 700;
