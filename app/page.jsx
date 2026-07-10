@@ -1,6 +1,8 @@
 "use client";
+
 import HowItWorks from './components/how-it-works';
 import About from './components/about';
+
 import { useState, useEffect, useRef } from 'react';
 import {
   Eye,
@@ -116,7 +118,7 @@ const Home = () => {
         <div className="fade"></div>
       </section>
 
-      <section className="problem" >
+      <section className="problem" id="how-it-works">
         <div className="container">
           <div className="grid">
             <div className="story">
@@ -158,7 +160,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="sol" >
+      <section className="sol" id="about">
         <div className="container">
           <div className="head text-center">
             <h2 className="heading">Introducing Mara Guard our solution</h2>
@@ -231,8 +233,8 @@ const Home = () => {
         </div>
       </section>
 
-     <HowItWorks/> 
-     <About/>
+      <HowItWorks/> 
+      <About/>
     </div>
   );
 };

@@ -36,6 +36,7 @@
     "**/*.mts",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
+
     "../.next/types/**/*.ts",
     "app/components/layout.jsx",
     "app/page.jsx",
