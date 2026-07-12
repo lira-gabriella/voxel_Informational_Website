@@ -1,0 +1,165 @@
+.values-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.section-header {
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 5px;
+}
+
+.section-subtitle {
+  max-width: 650px;
+  font-size: 1.125rem;
+  color: #6b7280;
+  line-height: 2;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.value-card {
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.value-icon-bg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #f3f4f6;
+  border-radius: 50%;
+  margin-bottom: 2px;
+}
+
+.value-icon {
+  width: 24px;
+  height: 24px;
+  color: #111827;
+}
+
+.value-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 3px;
+}
+
+.value-description {
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 2;
+}
+
+.timeline-section {
+  padding: 80px 0;
+  background-color: #3b2314;
+}
+
+.text-white {
+  color: #ffffff;
+  
+}
+
+.text-charcoal-300 {
+  color: #f3f4f6;
+  opacity: 1;
+}
+
+
+
+.cta-section {
+  padding: 100px 0;
+  background-color: #3b2314;
+  color: #ffffff;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.cta-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 2px;
+  letter-spacing: -0.02em;
+}
+
+.cta-subtitle {
+  max-width: 600px;
+  font-size: 1.25rem;
+  color: #f3f4f6;
+  opacity: 0.9;
+  line-height:2px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-lg {
+  padding: 16px 36px;
+  font-size: 2em;
+}
+
+.cta-btn {
+  background-color: #ca8a04;
+  color: #ffffff;
+}
+
+.cta-btn:hover {
+  background-color: #a16207;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    
+  .section-title, .cta-title {
+    font-size: 2.25rem;
+  }
+  .comparison-cards {
+  display: flex;
+  grid-template-columns: (2,1fr);
+  gap: 24px;
+  width: 100%;
+  max-width: 80%;
+  margin: 10px;
+}
+
+.comparison-card {
+  flex: 1;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .comparison-cards {
+    flex-direction: column;
+  }
+}
+}

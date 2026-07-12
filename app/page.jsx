@@ -1,5 +1,8 @@
 "use client";
 
+import HowItWorks from './components/how-it-works';
+import About from './components/about';
+
 import { useState, useEffect, useRef } from 'react';
 import {
   Eye,
@@ -230,7 +233,8 @@ const Home = () => {
         </div>
       </section>
 
-     
+      <HowItWorks/> 
+      <About/>
     </div>
   );
 };
