@@ -1,15 +1,12 @@
 "use client";
 
-import HowItWorks from './components/how-it-works';
-import About from './components/about';
+import React, { useState, useEffect, useRef } from 'react';
+import { Eye, Radio, ArrowRight, Activity } from 'lucide-react';
 
-import { useState, useEffect, useRef } from 'react';
-import {
-  Eye,
-  Radio,
-  ArrowRight,
-  Activity,
-} from 'lucide-react';
+// Unified Subcomponent Imports (Ensuring Casing Matches Exactly)
+import About from './components/about';
+import HowItWorks from './components/how-it-works';
+import Contact from './components/Contact';
 
 const Counter = ({ target, duration = 2000, prefix = "", suffix = "" }) => {
   const [count, setCount] = useState(0);
@@ -88,7 +85,8 @@ const InteractiveCard = ({ children, className }) => {
   );
 };
 
-const Home = () => {
+// Clean default export component mapping for root template trees
+export default function Home() {
   return (
     <div className="home">
       <section className="hero" id="home">
@@ -233,10 +231,11 @@ const Home = () => {
         </div>
       </section>
 
-      <HowItWorks/> 
-      <About/>
+      {/* Structured Subcomponents Stack Rendering Flow */}
+      <HowItWorks /> 
+      <About />
+      <Contact />
+
     </div>
   );
-};
-
-export default Home;
+}
