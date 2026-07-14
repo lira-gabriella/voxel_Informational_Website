@@ -14,7 +14,7 @@ const Header = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['home', 'how-it-works', 'about', 'blog', 'contact'];
+      const sections = ['home', 'how-it-works', 'about', 'contact'];
       for (const id of sections) {
         const el = document.getElementById(id);
         if (el) {
@@ -35,7 +35,6 @@ const Header = () => {
     { targetId: 'home', label: 'Home' },
     { targetId: 'how-it-works', label: 'How It Works' },
     { targetId: 'about', label: 'About Us' },
-    { targetId: 'blog', label: 'Blog' },
     { targetId: 'contact', label: 'Contact Us' },
   ];
 
