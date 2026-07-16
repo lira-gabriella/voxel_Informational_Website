@@ -85,7 +85,7 @@ const InteractiveCard = ({ children, className }) => {
   );
 };
 
-// Clean default export component mapping for root template trees
+
 export default function Home() {
   return (
     <div className="home">
@@ -113,10 +113,11 @@ export default function Home() {
           </div>
         </div>
 
+
         <div className="fade"></div>
       </section>
 
-      <section className="problem" id="how-it-works">
+      <section className="problem"  >
         <div className="container">
           <div className="grid">
             <div className="story">
@@ -158,7 +159,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="sol" id="about">
+      <section className="sol" >
         <div className="container">
           <div className="head text-center">
             <h2 className="heading">Introducing Mara Guard our solution</h2>
@@ -231,10 +232,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Structured Subcomponents Stack Rendering Flow */}
-      <HowItWorks /> 
-      <About />
-      <Contact />
+  
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
+        <HowItWorks /> 
+        <About />
+        <Contact />
+      </div>
 
     </div>
   );

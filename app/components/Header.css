@@ -387,6 +387,16 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+
+@media (max-width: 768px) {
+  div section { 
+    height: auto !important;
+    min-height: unset !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
 .cta-title {
   font-size: 3rem;
   font-weight: 800;
@@ -418,13 +428,14 @@ body {
 }
 
 .cta-btn {
-  background-color: #be123c;
+  background-color:#2c1a0e;
   color: #ffffff;
 }
 
 .cta-btn:hover {
-  background-color: #9f1239;
+  background-color: white;
   transform: translateY(-2px);
+  color:#2c1a0e ;
 }
 
 .btn-icon {
@@ -484,7 +495,7 @@ body {
 
   .mobile-cta {
     display: inline-block;
-    background-color: #be123c;
+    background-color: #2c1a0e;
     color: #ffffff;
     padding: 12px;
     border-radius: 6px;
@@ -584,6 +595,8 @@ body {
   flex-direction: column;
   padding: var(--spacing-md);
   gap: var(--spacing-sm);
+  color: white;
+  background-color: #2c1a0e;
 }
 
 .mobile-nav-link {
@@ -599,8 +612,8 @@ body {
 }
 
 .mobile-nav-link-active {
-  background: var(--savanna-100);
-  color: var(--savanna-800);
+  background: rgb(60, 32, 32);
+  color: white;
 }
 
 .mobile-cta {
@@ -611,6 +624,7 @@ body {
   text-align: center;
   border-radius: var(--radius-lg);
   font-weight: 600;
+  background-color:#2c1a0e; 
 
 }
 }

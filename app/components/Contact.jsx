@@ -43,7 +43,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       
       <section className="section hero-section gradient-hero">
         <div className="container">
