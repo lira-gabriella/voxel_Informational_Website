@@ -389,13 +389,13 @@ body {
 
 
 @media (max-width: 768px) {
-  div section { 
-    height: auto !important;
-    min-height: unset !important;
+  .section:not(#home) { 
+    height: auto;
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
+
 
 .cta-title {
   font-size: 3rem;
@@ -486,7 +486,7 @@ body {
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
     font-size: 1.125rem;
-    font-weight: 500;
+    font-weight: 300px;
   }
 
   .mobile-nav-link-active {
@@ -508,7 +508,7 @@ body {
 
 @media (max-width: 768px) {
   .section {
-    padding: 60px 0;
+    padding: 30px 0;
   }
 
   .section-title, .cta-title {

@@ -89,7 +89,7 @@ const InteractiveCard = ({ children, className }) => {
 export default function Home() {
   return (
     <div className="home">
-      <section className="hero" id="home">
+      <section className="hero" id="home"   style={{ height: 'auto', minHeight: 'unset', paddingTop: '140px', paddingBottom: '40px' }}>
         <div className="media"></div>
         <div className="overlay"></div>
 

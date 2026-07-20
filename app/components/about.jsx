@@ -58,9 +58,9 @@ const About = () => {
   ];
 
   return (
-    <div className="about-page" id="about">
+    <div className="about-page" >
     
-      <section className="about-hero-section">
+      <section className="about-hero-section" id="about">
         <div className="container text-center">
           <div className="page-hero-badge">Our Story</div>
           <h1 className="page-hero-title">About Mara Guard</h1>

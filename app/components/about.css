@@ -28,9 +28,11 @@
 
 
 .about-hero-section {
-  padding-top: 0.5rem !important;
-  padding-bottom: 0.5rem !important;
+  padding-top: 6rem ;
+  padding-bottom: 4rem ;
   background-color: #FAF6F0; 
+  scroll-margin-top: 80px;
+
 
 }
 
