@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Eye, Radio, ArrowRight, Activity } from 'lucide-react';
 
-// Unified Subcomponent Imports (Ensuring Casing Matches Exactly)
+
 import About from './components/about';
 import HowItWorks from './components/how-it-works';
 import Contact from './components/Contact';
